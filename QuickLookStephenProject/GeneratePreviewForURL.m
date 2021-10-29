@@ -22,7 +22,7 @@ OSStatus GeneratePreviewForURL(void *thisInterface,
         [QLSFileAttributes attributesForItemAtURL:(__bridge NSURL *)url];
 
     if (!magicAttributes) {
-      NSLog(@"QLStephen: Could not determine attribtues of file %@", url);
+      NSLog(@"QLStephen: Could not determine attributes of file %@", url);
       return noErr;
     }
 
